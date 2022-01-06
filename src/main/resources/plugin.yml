@@ -1,0 +1,6 @@
+name: Essentials
+version: 1.0
+main: uk.virgodevelopment.EssentialSpigotPlugin
+
+author: Staud
+description: The ultimate solution to an essentials core.
