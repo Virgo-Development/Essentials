@@ -24,7 +24,6 @@ public class ChatCommands {
 
     }
 
-    @Command(label = "clear", permission = "essentials.command.chat.clear")
     @Subcommand(label = "clear", parentLabel = "chat", permission = "essentials.command.chat.clear", description = "Clear the chat")
     public void clear(BukkitCommandExecutor executor) {
         for (Player player : Bukkit.getOnlinePlayers()) {
@@ -34,7 +33,7 @@ public class ChatCommands {
         }
 
         executor.sendMessage(CC.translate(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.clear.message")));
-        Bukkit.broadcastMessage(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.clear.broadcast"));
+        Bukkit.broadcastMessage(CC.translate(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.clear.broadcast")));
     }
 
     @Command(label = "mutechat", permission = "essentials.command.chat.mute")
@@ -42,10 +41,11 @@ public class ChatCommands {
     public void mute(BukkitCommandExecutor executor) {
         if (!chatState.isMuted()) {
             chatState.setMuted(true);
-            Bukkit.broadcastMessage(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.muted.enabled"));
+            Bukkit.broadcastMessage(CC.translate(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.muted.enabled")));
             return;
         }
+
         chatState.setMuted(false);
-        Bukkit.broadcastMessage(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.muted.disabled"));
+        Bukkit.broadcastMessage(CC.translate(EssentialSpigotPlugin.getInstance().getConfig().getString("chat.muted.disabled")));
     }
 }

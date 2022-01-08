@@ -16,7 +16,7 @@ gamemode:
   updated: "&bYou have &aupdated &byour gamemode."
 spawn:
   teleport: "&bYou have teleported to &aspawn&b."
-  setspawn: "&bYou have teleported to &aspawn&b."
+  setspawn: "&bYou have &aupdated &bthe &bspawn-point."
 teleport:
   player: "&bYou have &ateleported &bto &e%player%."
   here: "&bYou have been &ateleported &bto &e%player%."
