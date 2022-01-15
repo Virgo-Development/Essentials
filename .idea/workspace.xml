@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ceff0b4-d6c0-4bd6-baf4-ee69e62ef704" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/listener/ChatListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/command/freeze/FreezeCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/freeze/Freeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/freeze/FreezeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/freeze/impl/FreezeBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/uk/virgodevelopment/bootstrap/EssentialBoostrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/uk/virgodevelopment/bootstrap/EssentialBoostrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/uk/virgodevelopment/command/EssentialCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/uk/virgodevelopment/command/EssentialCommands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/essentials-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/essentials-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/essentials-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/essentials-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/bootstrap/EssentialBoostrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/bootstrap/EssentialBoostrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/command/EssentialCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/command/EssentialCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/command/chat/ChatCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/virgodevelopment/command/chat/ChatCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +83,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.595092" />
@@ -172,7 +181,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
